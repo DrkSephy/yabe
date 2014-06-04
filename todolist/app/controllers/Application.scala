@@ -9,4 +9,10 @@ object Application extends Controller {
     Ok("Hello World")
   }
 
+  // TODO is a built-in action that returns a 501 Not Implemented HTTP Response
+  def tasks = TODO
+
+  def newTask = TODO
+
+  def deleteTask(id: Long) = TODO
 }
